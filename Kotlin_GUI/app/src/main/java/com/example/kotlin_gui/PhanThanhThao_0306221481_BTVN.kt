@@ -103,7 +103,7 @@ fun IconField (modifier: Modifier=Modifier){
 
 @Composable
 fun ButtonSection (modifier: Modifier=Modifier){
-    Box(modifier = modifier.padding(vertical = 10.dp, horizontal = 10.dp)){
+    Box(modifier = modifier.padding(vertical = 15.dp, horizontal = 10.dp)){
         Button(
             onClick = {},
             colors = ButtonDefaults.buttonColors(
